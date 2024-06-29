@@ -51,30 +51,7 @@ The configuration for the hand tracking system is located in the `config.json` f
     "tracking_confidence": 0.5,
     "max_num_hands": 2
 }
-Requirements
-Python 3.7+
-OpenCV
-Mediapipe
-Numpy
-All required packages can be installed using the requirements.txt file.
 
-File Structure
-hand-tracking-system/
-│
-├── hand_tracking.py          # Main script to run the hand tracking system
-├── utils.py                  # Utility functions
-├── requirements.txt          # List of required packages
-├── config.json               # Configuration file
-├── README.md                 # This file
-└── demo.gif                  # Demo of the hand tracking system
-
-Contributing
-We welcome contributions to improve the Hand Tracking System. If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
-
-
-
-Acknowledgements
-Mediapipe by Google for providing the hand tracking model.
 
 Contact
 If you have any questions or feedback, feel free to reach out to us at rajnandini1783@gmail.com.
